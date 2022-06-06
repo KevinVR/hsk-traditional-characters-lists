@@ -1,0 +1,37 @@
+[
+  {
+    "level": 1,
+    "totalCharacters": 150,
+    "totalDifferentTraditionalCharacters": 67
+  },
+  {
+    "level": 2,
+    "totalCharacters": 150,
+    "totalDifferentTraditionalCharacters": 62
+  },
+  {
+    "level": 3,
+    "totalCharacters": 299,
+    "totalDifferentTraditionalCharacters": 167
+  },
+  {
+    "level": 4,
+    "totalCharacters": 601,
+    "totalDifferentTraditionalCharacters": 351
+  },
+  {
+    "level": 5,
+    "totalCharacters": 1300,
+    "totalDifferentTraditionalCharacters": 781
+  },
+  {
+    "level": 6,
+    "totalCharacters": 1300,
+    "totalDifferentTraditionalCharacters": 781
+  },
+  {
+    "level": "all",
+    "totalCharacters": 3800,
+    "totalDifferentTraditionalCharacters": 2209
+  }
+]

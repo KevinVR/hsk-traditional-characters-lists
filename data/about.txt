@@ -1,0 +1,3 @@
+HSK Words list from https://github.com/gigacool/hanyu-shuiping-kaoshi
+
+Thank you Gigacool (https://github.com/gigacool) for saving me time in making this list!

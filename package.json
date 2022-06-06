@@ -1,0 +1,14 @@
+{
+  "name": "hsk-simp-to-trad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "zhconvertor": "^2.2.4"
+  }
+}
