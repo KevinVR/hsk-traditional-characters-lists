@@ -35,8 +35,8 @@ const generate = async () => {
         resultDifferent[level] = thisHskLevelDifferent;
 
         // Save a file with a list of only the characters
-        const differentTraditionalCharsString = tempDifferentTraditionalCharacters.join(' ');
-        fs.writeFile(`./out/hsk-${level}-different-traditional.txt`, differentTraditionalCharsString);
+        fs.writeFile(`./out/hsk-${level}-different-traditional.txt`, tempDifferentTraditionalCharacters.join(' '));
+        fs.writeFile(`./out/hsk-${level}-different-traditional-no-spaces.txt`, tempDifferentTraditionalCharacters.join(''));
         console.log(`List of all different traditional characters written in HSK ${level} -- total different characters: `, tempDifferentTraditionalCharacters.length);
         stats.push({
             level,
@@ -64,8 +64,8 @@ const generate = async () => {
     console.log('JSON HSK Traditional Character Statistics written');
 
     // Save a file with a list of only the characters (txt) full
-    const differentTraditionalCharsString = allDifferentTraditionalCharacters.join(' ');
-    fs.writeFile(`./out/hsk-all-different-traditional.txt`, differentTraditionalCharsString);
+    fs.writeFile(`./out/hsk-all-different-traditional.txt`, allDifferentTraditionalCharacters.join(' '));
+    fs.writeFile(`./out/hsk-all-different-traditional-no-spaces.txt`, allDifferentTraditionalCharacters.join(''));
     console.log(`List of all different traditional characters written in HSK ALL -- total different characters: `, allDifferentTraditionalCharacters.length);
 }
 

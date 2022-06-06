@@ -1,0 +1,3 @@
+This directory contains practice sheets for Traditional Chinese characters. Only the traditional characters that are different from the simplified are included. For
+
+The practice sheets were generated with the PurpleCulture tool https://www.purpleculture.net/chinese-practice-sheet/
