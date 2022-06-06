@@ -26,12 +26,12 @@
   },
   {
     "level": 6,
-    "totalCharacters": 1300,
-    "totalDifferentTraditionalCharacters": 781
+    "totalCharacters": 2500,
+    "totalDifferentTraditionalCharacters": 1593
   },
   {
     "level": "all",
-    "totalCharacters": 3800,
-    "totalDifferentTraditionalCharacters": 2209
+    "totalCharacters": 5000,
+    "totalDifferentTraditionalCharacters": 3021
   }
 ]
